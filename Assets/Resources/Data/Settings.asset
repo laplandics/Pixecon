@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b86f46696044fe0828746931cdf3206, type: 3}
+  m_Name: Settings
+  m_EditorClassIdentifier: Assembly-CSharp::Settings
+  effectsCountWeights:
+  - effectsCount: 1
+    weight: 50
+  - effectsCount: 2
+    weight: 5
+  - effectsCount: 3
+    weight: 2
+  - effectsCount: 4
+    weight: 1
+  effectsTypeWeights:
+  - effectType: 0
+    weight: 10
+  - effectType: 1
+    weight: 10
+  - effectType: 2
+    weight: 5
+  - effectType: 3
+    weight: 3
+  - effectType: 4
+    weight: 4
+  - effectType: 5
+    weight: 1
+  - effectType: 6
+    weight: 10
+  - effectType: 7
+    weight: 10
+  effectsLayoutPresets:
+  - layout: 0
+    tilings:
+    - {x: 1, y: 1}
+    offsets:
+    - {x: 0, y: 0}
+  - layout: 1
+    tilings:
+    - {x: 2, y: 2}
+    - {x: 2, y: 2}
+    offsets:
+    - {x: 0, y: -0.5}
+    - {x: -1, y: -0.5}
+  - layout: 2
+    tilings:
+    - {x: 2, y: 2}
+    - {x: 2, y: 2}
+    - {x: 2, y: 2}
+    offsets:
+    - {x: 0, y: 0}
+    - {x: -1, y: 0}
+    - {x: -0.5, y: -1}
+  - layout: 3
+    tilings:
+    - {x: 2, y: 2}
+    - {x: 2, y: 2}
+    - {x: 2, y: 2}
+    - {x: 2, y: 2}
+    offsets:
+    - {x: 0, y: 0}
+    - {x: -1, y: 0}
+    - {x: 0, y: -1}
+    - {x: -1, y: -1}
+  firstPerformDelay: 1.5
+  baseDelay: 0.9
+  delayDecreaseInterval: 1.2
+  delayDecreaseRate: 0.999
+  fallAnimationSpeed: 8
+  fallAnimationMaxSpeed: 9.3
+  fallAnimationMinSpeed: 3.2
+  deathAnimationSpeed: 4.8
+  lifeTimeOnBottom: 2
+  possibleLetters: 6100620063006400650066006700680069006a006b006c006d006e006f0070007100720073007400750076007700780079007a00
